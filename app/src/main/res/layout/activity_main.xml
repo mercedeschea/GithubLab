@@ -42,4 +42,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="93dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:onClick="ilyaButton"
+        android:text="@string/ilya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
