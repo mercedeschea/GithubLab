@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMercedesActivity.class);
         startActivity(intent);
     }
+
+    public void ilyaButton(View view) {
+        Intent intent = new Intent(this, DisplayIlyaActivity.class);
+        startActivity(intent);
+    }
 }
