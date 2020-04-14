@@ -23,4 +23,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayIlyaActivity.class);
         startActivity(intent);
     }
+    public void romanButton(View view) {
+        Intent intent = new Intent(this, DisplayRomanActivity.class);
+        startActivity(intent);
+    }
 }
