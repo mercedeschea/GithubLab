@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayRomanActivity.class);
         startActivity(intent);
     }
+
+    public void rossButton(View view) {
+        Intent intent = new Intent(this, DisplayRossActivity.class);
+        startActivity(intent);
+    }
 }
